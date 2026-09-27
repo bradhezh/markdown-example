@@ -40,19 +40,26 @@ bradhezh@gmail.com
 
 Click [<img src='/markdown-example/img/favicon.ico' />](/img/docusaurus-social-card.jpg)
 
+## Figures
+
 <figure align="center">
   <img src="/markdown-example/img/docusaurus.png" alt="Docusaurus" />
-  <figcaption><strong>Figure 1.1:</strong> Description</figcaption>
+  <figcaption>Description</figcaption>
 </figure>
 
 ## Tables
+
+:::note[Description]
 
 | Left             |      Center      |            Right |
 | :--------------- | :--------------: | ---------------: |
 | left             |      center      |            right |
 | ---------------- | ---------------- | ---------------- |
 
+:::
+
 <table>
+  <caption>Description</caption>
   <thead>
     <tr><th rowspan="2">Head</th><th colspan="2">Head</th></tr>
     <tr><th>Head</th><th>Head</th></tr>
